@@ -36,6 +36,9 @@ This driver allows use of wpa_supplicant by using the nl80211 driver
 
 If installing on Rasberry Pi or other "armv71" devices, edit the Makefile and set `CONFIG_PLATFORM_ARM_RPI = y` and `CONFIG_PLATFORM_I386_PC = n`
 
+to compile on raspberry pi make sure have headers
+  <b>sudo apt-get install raspberrypi-kernel-headers</b>
+  
 **STATUS**  
 Driver works fine (some sort of)  
 Most of the work is done is cleaning the driver and make this mess **readable**   for conversion.
